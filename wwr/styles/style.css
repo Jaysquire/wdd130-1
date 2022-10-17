@@ -5,12 +5,16 @@
             max-width: 1600px;
             margin: 0 auto;
         }
+        main section img{
+            box-sizing: border-box;
+        }
         nav a{
             text-align: center;
+            padding: 35px;
 
         } nav a:hover{
             background-color: black;
-            color: antiquewhite;
+            color: rgb(19, 18, 18);
             text-decoration: none;
         }
 
@@ -25,50 +29,68 @@
         }
         #background {
             height: 725px;
-            background-color: blue;
-            color: antiquewhite;
+            background-color: rgb(96, 96, 165);
+            color:  rgb(19, 18, 18);
         }
         body{
             background-color: aliceblue;
+            font-family: Raleway, Arial, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            padding: 0;
         }
         header{
             background-color: aqua;
         }
        
         .home-title{
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
+            font-family:'Rock Salt', 'Bradley hand', sans-serif;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+        h2{
+            margin: 0;
         }
         h4{
             color: aquamarine;
         }
         .book, .join{
             background-color: cornsilk;
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
             text-decoration:none ;
+            padding: 15px 30px;
+            margin-top: 50px;
+            border-radius: 5px;
         }
         .book:hover, .join:hover{
             background-color: aquamarine;
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
         }
         .msg{
             background-color: aqua;
+            line-height: 1.5em;
+            padding: 35px;
         }
         .msg h2{
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
         }
         .msg p{
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
+            padding-bottom: 15px;
         }
         footer{
             background-color: darkgray;
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
+            padding: 25px 50px;
+            margin-top: 200px;
         }
         footer a{
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
             text-decoration: none;
         }
         footer a:hover{
-            color: antiquewhite;
+            color:  rgb(19, 18, 18);
             text-decoration: none;
         }
         footer p{
@@ -77,11 +99,24 @@
         footer p a:hover{
             text-decoration: underline;
         }
+        footer .social img{
+            padding-top: 15px;
+        }
         .icon{
             width: 80px;
         }
         #hero-img{
             width: 100%;
+            padding-top: 10;
+        }
+        #logo_link{
+            padding-top: 5px;
+        }
+        .rivers-card, .camping-card, .rapids-card{
+            margin: 200px 0;
+        }
+        .card-img{
+            border: 10px solid #black;
         }
         </footer>
     </div>
